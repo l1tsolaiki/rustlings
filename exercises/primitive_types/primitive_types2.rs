@@ -2,10 +2,17 @@
 // Fill in the rest of the line that has code missing!
 // No hints, there's no tricks, just get used to typing these :)
 
-// I AM NOT DONE
+fn slave() {
+    let a: u32 = 5;
+    println!("Hello, main!");
+}
 
 fn main() {
     // Characters (`char`)
+
+    slave();
+
+    let a: u32 = 5;
 
     let my_first_initial = 'C';
     if my_first_initial.is_alphabetic() {
@@ -16,7 +23,7 @@ fn main() {
         println!("Neither alphabetic nor numeric!");
     }
 
-    let // Finish this line like the example! What's your favorite character?
+    let your_character = '4'; // Finish this line like the example! What's your favorite character?
     // Try a letter, try a number, try a special character, try a character
     // from a different language than your own, try an emoji!
     if your_character.is_alphabetic() {
